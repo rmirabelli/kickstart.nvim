@@ -330,6 +330,9 @@ vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagn
 vim.o.title = true
 vim.o.titlestring = "nvim: %t"
 
+-- wordwrap
+vim.o.linebreak = true
+
 -- [[ Highlight on yank ]]
 -- See `:help vim.highlight.on_yank()`
 local highlight_group = vim.api.nvim_create_augroup('YankHighlight', { clear = true })
