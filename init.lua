@@ -333,6 +333,9 @@ vim.o.titlestring = "nvim: %t"
 -- wordwrap
 vim.o.linebreak = true
 
+-- tabstop
+vim.o.tabstop = 4
+
 -- [[ Highlight on yank ]]
 -- See `:help vim.highlight.on_yank()`
 local highlight_group = vim.api.nvim_create_augroup('YankHighlight', { clear = true })
