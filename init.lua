@@ -221,6 +221,10 @@ require('lazy').setup({
     opts = {},
   },
 
+  -- Glow does markdown previews
+  {"ellisonleao/glow.nvim", config = true, cmd = "Glow"},
+
+
   -- "gc" to comment visual regions/lines
   { 'numToStr/Comment.nvim', opts = {} },
 
