@@ -270,7 +270,7 @@ require('lazy').setup({
   --    Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
   --
   --    For additional information see: https://github.com/folke/lazy.nvim#-structuring-your-plugins
-  -- { import = 'custom.plugins' },
+{ import = 'custom.plugins' },
 }, {})
 
 -- [[ Setting options ]]
@@ -336,6 +336,9 @@ vim.o.titlestring = "nvim: %t"
 
 -- wordwrap
 vim.o.linebreak = true
+
+-- tabstop
+vim.o.tabstop = 4
 
 -- [[ Highlight on yank ]]
 -- See `:help vim.highlight.on_yank()`
